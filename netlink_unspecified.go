@@ -144,6 +144,10 @@ func LinkSetGROIPv4MaxSize(link Link, maxSize int) error {
 	return ErrNotImplemented
 }
 
+func LinkSetIP6AddrGenMode(link Link, mode int) error {
+	return ErrNotImplemented
+}
+
 func LinkAdd(link Link) error {
 	return ErrNotImplemented
 }
