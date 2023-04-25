@@ -183,6 +183,10 @@ func (h *Handle) LinkSetGROIPv4MaxSize(link Link, maxSize int) error {
 	return ErrNotImplemented
 }
 
+func (h *Handle) LinkSetIP6AddrGenMode(link Link, mode int) error {
+	return ErrNotImplemented
+}
+
 func (h *Handle) setProtinfoAttr(link Link, mode bool, attr int) error {
 	return ErrNotImplemented
 }
